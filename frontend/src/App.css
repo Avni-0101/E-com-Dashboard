@@ -1,0 +1,286 @@
+/* Nav */
+
+.navbar-container {
+  background-color: blueviolet;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #8a2be2;
+  color: #fff;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+
+/* AddProduct */
+
+.product, .register, .login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inputbox {
+  width: calc(100% - 40px);
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.invalid-input {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+.signupButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.signupButton:hover {
+  background-color: #45a049;
+}
+
+/* ProductList */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.product-list-container {
+  margin: 50px auto 100px auto;
+  padding: 20px;
+  max-width: 900px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-list-heading {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.search-prod-box {
+  width: 80%;
+  max-width: 500px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.product-table-header,
+.product-table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table-header {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.product-table-row {
+  transition: background-color 0.3s;
+}
+
+.product-table-row:hover {
+  background-color: #f9f9f9;
+}
+
+.product-table-row span {
+  flex: 1;
+  padding: 0 10px;
+  align-self: center;
+}
+
+.operation-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.product-list button,
+.product-list .update-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.update-button {
+  background-color: #4caf50;
+}
+
+.update-button a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.no-products-message {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 20px;
+}
+
+
+/* profile section */
+
+.profile-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.profile-message {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profile-info-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.profile-info-header {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-info-item {
+  font-size: 1.1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.profile-instructions {
+  font-size: 1.2em;
+  color: #666;
+  margin: 20px 0;
+}
+
+.profile-thank-you {
+  font-size: 1.2em;
+  color: #999;
+  margin-top: 30px;
+}
+
+.footer {
+    background-color: #282c34;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
